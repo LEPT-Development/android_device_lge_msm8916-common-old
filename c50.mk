@@ -174,7 +174,10 @@ PRODUCT_PACKAGES += \
     init.qcom.sh \
     init.target.rc \
     set_emmc_size.sh \
-    ueventd.c50.rc
+    ueventd.c50.rc \
+    init.lge.power.rc \
+    init.lge.svelte.rc \
+    init.lge.modem_log.rc 
 
 # RIL
 PRODUCT_PACKAGES += \
